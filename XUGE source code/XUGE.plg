@@ -1,0 +1,67 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: XUGE - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Administrator\AppData\Local\Temp\RSP7043.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/XUGE.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\Administrator\Desktop\CSP-JS\virus\XUGE\main.cpp"
+]
+Creating command line "cl.exe @C:\Users\Administrator\AppData\Local\Temp\RSP7043.tmp" 
+Creating temporary file "C:\Users\Administrator\AppData\Local\Temp\RSP7044.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/XUGE.pdb" /debug /machine:I386 /out:"Debug/XUGE.exe" /pdbtype:sept 
+".\Debug\main.obj"
+".\Debug\resource.res"
+]
+Creating command line "link.exe @C:\Users\Administrator\AppData\Local\Temp\RSP7044.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+c:\users\administrator\desktop\csp-js\virus\xuge\def.h(156) : warning C4552: '<' : operator has no effect; expected operator with side-effect
+c:\users\administrator\desktop\csp-js\virus\xuge\def.h(166) : warning C4552: '<' : operator has no effect; expected operator with side-effect
+c:\users\administrator\desktop\csp-js\virus\xuge\def.h(171) : warning C4552: '<' : operator has no effect; expected operator with side-effect
+c:\users\administrator\desktop\csp-js\virus\xuge\sound.h(34) : warning C4554: '>>' : check operator precedence for possible error; use parentheses to clarify precedence
+c:\users\administrator\desktop\csp-js\virus\xuge\sound.h(90) : warning C4554: '>>' : check operator precedence for possible error; use parentheses to clarify precedence
+c:\users\administrator\desktop\csp-js\virus\xuge\sound.h(118) : warning C4554: '|' : check operator precedence for possible error; use parentheses to clarify precedence
+c:\users\administrator\desktop\csp-js\virus\xuge\sound.h(146) : warning C4554: '|' : check operator precedence for possible error; use parentheses to clarify precedence
+c:\users\administrator\desktop\csp-js\virus\xuge\sound.h(228) : warning C4554: '>>' : check operator precedence for possible error; use parentheses to clarify precedence
+c:\users\administrator\desktop\csp-js\virus\xuge\sound.h(255) : warning C4244: '=' : conversion from 'unsigned long' to 'char', possible loss of data
+c:\users\administrator\desktop\csp-js\virus\xuge\payload.h(190) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\users\administrator\desktop\csp-js\virus\xuge\payload.h(236) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\users\administrator\desktop\csp-js\virus\xuge\payload.h(465) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+c:\users\administrator\desktop\csp-js\virus\xuge\payload.h(481) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+c:\users\administrator\desktop\csp-js\virus\xuge\payload.h(482) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+c:\users\administrator\desktop\csp-js\virus\xuge\payload.h(530) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+c:\users\administrator\desktop\csp-js\virus\xuge\payload.h(531) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+c:\users\administrator\desktop\csp-js\virus\xuge\payload.h(532) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+c:\users\administrator\desktop\csp-js\virus\xuge\payload.h(533) : warning C4244: '=' : conversion from 'float' to 'long', possible loss of data
+c:\users\administrator\desktop\csp-js\virus\xuge\payload.h(598) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+c:\users\administrator\desktop\csp-js\virus\xuge\payload.h(598) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+c:\users\administrator\desktop\csp-js\virus\xuge\payload.h(601) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+c:\users\administrator\desktop\csp-js\virus\xuge\payload.h(601) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+c:\users\administrator\desktop\csp-js\virus\xuge\payload.h(607) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+c:\users\administrator\desktop\csp-js\virus\xuge\payload.h(607) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+c:\users\administrator\desktop\csp-js\virus\xuge\payload.h(627) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+c:\users\administrator\desktop\csp-js\virus\xuge\payload.h(627) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+c:\users\administrator\desktop\csp-js\virus\xuge\payload.h(630) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+c:\users\administrator\desktop\csp-js\virus\xuge\payload.h(630) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+c:\users\administrator\desktop\csp-js\virus\xuge\payload.h(637) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\users\administrator\desktop\csp-js\virus\xuge\payload.h(698) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+c:\users\administrator\desktop\csp-js\virus\xuge\payload.h(702) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+c:\users\administrator\desktop\csp-js\virus\xuge\payload.h(784) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\users\administrator\desktop\csp-js\virus\xuge\main.cpp(144) : warning C4129: 'D' : unrecognized character escape sequence
+c:\users\administrator\desktop\csp-js\virus\xuge\def.h(180) : warning C4715: 'Hue' : not all control paths return a value
+Linking...
+
+
+
+<h3>Results</h3>
+XUGE.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
